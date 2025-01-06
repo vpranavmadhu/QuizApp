@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1c4e9; /* Light purple background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Quiz Container */
+.quiz {
+    background-color: #f8bbd0; /* Light pink background */
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+    text-align: center;
+}
+
+/* Question Heading */
+.quiz h1 {
+    font-size: 1.8rem;
+    color: #000; /* Black text */
+    margin-bottom: 20px;
+}
+
+/* Options List */
+.quiz ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.quiz li {
+    background-color: #fff; /* White background for options */
+    border: 2px solid #e1bee7; /* Light purple border */
+    margin: 10px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Options */
+.quiz li:hover {
+    background-color: #e1bee7; /* Light purple on hover */
+    color: #fff; /* White text */
+    transform: scale(1.02); /* Slight zoom */
+}
+
+/* Button */
+.quiz button {
+    background-color: #ce93d8; /* Medium purple background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quiz button:hover {
+    background-color: #ab47bc; /* Darker purple on hover */
+}
+
+/* Question Counter */
+.quiz h5 {
+    font-size: 0.9rem;
+    color: #000; /* Black text */
+    margin-top: 10px;
+}
+
+/* Selected Option Styling */
+.quiz li.selected {
+    background-color: #ab47bc; /* Darker purple for selected option */
+    color: #fff; /* White text */
+    border-color: #8e24aa; /* Even darker purple border */
+    font-weight: bold; /* Bold text for emphasis */
+    transform: scale(1.03); /* Slightly larger size for better feedback */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for focus */
+}
+
+/* General Styling for the Score Page */
+.scorePage {
+    background-color: #f8bbd0; /* Light pink background */
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto; /* Center the score page vertically and horizontally */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    text-align: center;
+}
+
+/* Headings */
+.scorePage h3 {
+    color: #000; /* Black text for contrast */
+    font-size: 1.5rem;
+    margin: 10px 0; /* Consistent spacing between headings */
+}
+
+/* Additional Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d1c4e9; /* Light purple background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
